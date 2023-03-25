@@ -1,4 +1,5 @@
 import type { FC } from "react"
+import Image from "next/image"
 
 const HeroSection: FC = () => {
     return (
@@ -8,7 +9,7 @@ const HeroSection: FC = () => {
             style={{ width: 1440, height: 337 }}
         >
             <div className="hero-section-left">
-                <div className="inline-flex flex-col space-y-6 w-125 h-85 w-125 items-start justify-end">
+                <div className="inline-flex flex-col space-y-6 w-125 h-85 items-start justify-end">
                     <p className="text-xl font-semibold text-gray-400">
                         Halo gamers,
                     </p>
@@ -44,15 +45,17 @@ const HeroSection: FC = () => {
                         className="relative"
                         style={{ width: 176.35, height: 187.14 }}
                     >
-                        <img
+                        <Image
                             className="w-44 h-48 absolute left-0 top-0 rounded-2xl"
                             src="https://via.placeholder.com/175.07432556152344x187.13800048828125"
+                            alt="hero"
                         />
                         <div className="inline-flex flex-col items-start justify-start w-16 h-9 px-2 py-1 absolute right-0 top-0 bg-gray-900 rounded-tr-2xl rounded-bl-2xl">
                             <div className="inline-flex space-x-0.5 items-center justify-center">
-                                <img
+                                <Image
                                     className="w-6 h-6 rounded-lg"
                                     src="https://via.placeholder.com/24x24"
+                                    alt="hero-image"
                                 />
                                 <p className="text-xl font-semibold text-white">
                                     0.5
@@ -64,15 +67,17 @@ const HeroSection: FC = () => {
                         className="relative"
                         style={{ width: 277.83, height: 332.05 }}
                     >
-                        <img
+                        <Image
                             className="w-72 h-80 absolute left-0 top-0 border-2 rounded-2xl border-white"
                             src="https://via.placeholder.com/276.36993408203125x331.0265197753906"
+                            alt="hero section"
                         />
                         <div className="inline-flex flex-col items-start justify-start w-20 h-10 px-2 py-1 absolute right-0 top-0 bg-gray-900 rounded-tr-2xl rounded-bl-2xl">
                             <div className="inline-flex space-x-0.5 items-center justify-center">
-                                <img
+                                <Image
                                     className="w-6 h-6 rounded-lg"
                                     src="https://via.placeholder.com/24x24"
+                                    alt="hero section"
                                 />
                                 <p className="text-xl font-semibold text-white">
                                     0.7
@@ -84,15 +89,15 @@ const HeroSection: FC = () => {
                         className="relative"
                         style={{ width: 176.35, height: 187.14 }}
                     >
-                        <img
+                        <Image
                             className="w-44 h-48 absolute left-0 top-0 rounded-2xl"
-                            src="https://via.placeholder.com/175.07432556152344x187.13800048828125"
-                        />
+                            src="https://via.placeholder.com/175.07432556152344x187.13800048828125" alt="hero section"/>
                         <div className="inline-flex flex-col items-start justify-start w-16 h-9 px-2 py-1 absolute right-0 top-0 bg-gray-900 rounded-tr-2xl rounded-bl-2xl">
                             <div className="inline-flex space-x-0.5 items-center justify-center">
-                                <img
+                                <Image
                                     className="w-6 h-6 rounded-lg"
                                     src="https://via.placeholder.com/24x24"
+                                    alt="hero section"
                                 />
                                 <p className="text-xl font-semibold text-white">
                                     0.1
