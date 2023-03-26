@@ -5,6 +5,7 @@ module.exports = {
         extend: {
             colors: {
                 "button-100": "#00BCBC",
+                "dark-blue": "#120227",
             },
             margin: {
                 30: "119px",
@@ -12,6 +13,7 @@ module.exports = {
             height: {
                 85: "337px",
                 100: "400px",
+                215: "703px",
             },
             width: {
                 125: "483px",

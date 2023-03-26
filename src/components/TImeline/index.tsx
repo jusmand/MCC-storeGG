@@ -1,4 +1,5 @@
 import type { FC } from "react"
+import Image from "next/image"
 
 const Timeline: FC = () => {
     return (
@@ -18,7 +19,13 @@ const Timeline: FC = () => {
                             className="relative"
                             style={{ width: 80, height: 80 }}
                         >
-                            <div className="w-20 h-20 bg-purple-200 rounded-full" />
+                            <div className="w-20 h-20 bg-purple-200 rounded-full">
+                                <Image
+                                    src="/img/ic-timeline-1.png"
+                                    alt="icon timeline"
+                                    fill
+                                />
+                            </div>
                         </div>
                         <p className="text-xl font-semibold leading-loose text-white">
                             1. Start
@@ -36,7 +43,13 @@ const Timeline: FC = () => {
                             className="relative"
                             style={{ width: 80, height: 80 }}
                         >
-                            <div className="w-20 h-20 bg-purple-200 rounded-full" />
+                            <div className="w-20 h-20 bg-purple-200 rounded-full">
+                                <Image
+                                    src="/img/ic-timeline-2.png"
+                                    alt="icon timeline"
+                                    fill
+                                />
+                            </div>
                         </div>
                         <p className="text-xl font-semibold leading-loose text-white">
                             2. Fill Up
@@ -54,7 +67,13 @@ const Timeline: FC = () => {
                             className="relative"
                             style={{ width: 80, height: 80 }}
                         >
-                            <div className="w-20 h-20 bg-purple-200 rounded-full" />
+                            <div className="w-20 h-20 bg-purple-200 rounded-full">
+                                <Image
+                                    src="/img/ic-timeline-3.png"
+                                    alt="icon timeline"
+                                    fill
+                                />
+                            </div>
                         </div>
                         <p className="text-xl font-semibold leading-loose text-white">
                             3. Be a Winner

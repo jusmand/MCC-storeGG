@@ -2,6 +2,7 @@ import Head from "next/head"
 import Header from "../components/Header"
 import HeroSection from "../components/HeroSection"
 import Timeline from "../components/TImeline"
+import Featured from "../components/Featured"
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Header />
             <HeroSection />
             <Timeline />
+            <Featured />
         </>
     )
 }

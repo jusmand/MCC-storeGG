@@ -16,7 +16,8 @@ const Header: FC = () => {
                     <Image
                         src="/img/logo-MCC.png"
                         alt="logo Mafia Code Community"
-                        fill
+                        width={93}
+                        height={108}
                     />
                 </Link>
             </div>

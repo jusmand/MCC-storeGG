@@ -13,10 +13,13 @@ const HeroSection: FC = () => {
                     <p className="text-xl font-semibold text-gray-400">
                         Halo gamers,
                     </p>
-                    <p className="text-5xl font-bold">
-                        Topup & Get a New
-                        <br />
-                        Experience in Gaming
+                    <p className="text-5xl font-bold ">
+                        Topup & Get
+                        <span>
+                            a New
+                            <br />
+                            Experience in Gaming
+                        </span>
                     </p>
                     <p
                         className="text-xl font-semibold leading-loose text-gray-400"
@@ -38,25 +41,30 @@ const HeroSection: FC = () => {
 
             <div className="hero-section-right">
                 <div
-                    className="inline-flex space-x-8 items-end justify-end"
+                    className="inline-flex space-x-8 justify-end items-center"
                     style={{ width: 690.35, height: 332.05 }}
                 >
                     <div
                         className="relative"
                         style={{ width: 176.35, height: 187.14 }}
                     >
-                        <Image
-                            className="w-44 h-48 absolute left-0 top-0 rounded-2xl"
-                            src="https://via.placeholder.com/175.07432556152344x187.13800048828125"
-                            alt="hero"
-                        />
+                        <div className="w-44 h-48 absolute left-0 top-0 rounded-2xl">
+                            <Image
+                                src="/img/hero-image-1.png"
+                                alt="hero"
+                                fill
+                            />
+                        </div>
                         <div className="inline-flex flex-col items-start justify-start w-16 h-9 px-2 py-1 absolute right-0 top-0 bg-gray-900 rounded-tr-2xl rounded-bl-2xl">
                             <div className="inline-flex space-x-0.5 items-center justify-center">
-                                <Image
-                                    className="w-6 h-6 rounded-lg"
-                                    src="https://via.placeholder.com/24x24"
-                                    alt="hero-image"
-                                />
+                                <div className="w-6 h-6 rounded-lg">
+                                    <Image
+                                        src="/img/icon-splash.png"
+                                        alt="hero-image"
+                                        width={16}
+                                        height={16}
+                                    />
+                                </div>
                                 <p className="text-xl font-semibold text-white">
                                     0.5
                                 </p>
@@ -67,18 +75,26 @@ const HeroSection: FC = () => {
                         className="relative"
                         style={{ width: 277.83, height: 332.05 }}
                     >
-                        <Image
-                            className="w-72 h-80 absolute left-0 top-0 border-2 rounded-2xl border-white"
-                            src="https://via.placeholder.com/276.36993408203125x331.0265197753906"
-                            alt="hero section"
-                        />
+                        <div className="absolute left-0 top-0 border-2 rounded-2xl border-white">
+                            <Image
+                                src="/img/hero-image-2.png"
+                                alt="hero section"
+                                width={276.37}
+                                height={331.03}
+                            />
+                        </div>
+
                         <div className="inline-flex flex-col items-start justify-start w-20 h-10 px-2 py-1 absolute right-0 top-0 bg-gray-900 rounded-tr-2xl rounded-bl-2xl">
                             <div className="inline-flex space-x-0.5 items-center justify-center">
-                                <Image
-                                    className="w-6 h-6 rounded-lg"
-                                    src="https://via.placeholder.com/24x24"
-                                    alt="hero section"
-                                />
+                                <div className="w-6 h-6 rounded-lg">
+                                    <Image
+                                        src="/img/icon-splash.png"
+                                        alt="hero-image"
+                                        width={16}
+                                        height={16}
+                                    />
+                                </div>
+
                                 <p className="text-xl font-semibold text-white">
                                     0.7
                                 </p>
@@ -89,16 +105,23 @@ const HeroSection: FC = () => {
                         className="relative"
                         style={{ width: 176.35, height: 187.14 }}
                     >
-                        <Image
-                            className="w-44 h-48 absolute left-0 top-0 rounded-2xl"
-                            src="https://via.placeholder.com/175.07432556152344x187.13800048828125" alt="hero section"/>
+                        <div className="w-44 h-48 absolute left-0 top-0 rounded-2xl">
+                            <Image
+                                src="/img/hero-image-3.png"
+                                alt="hero section"
+                                fill
+                            />
+                        </div>
                         <div className="inline-flex flex-col items-start justify-start w-16 h-9 px-2 py-1 absolute right-0 top-0 bg-gray-900 rounded-tr-2xl rounded-bl-2xl">
                             <div className="inline-flex space-x-0.5 items-center justify-center">
-                                <Image
-                                    className="w-6 h-6 rounded-lg"
-                                    src="https://via.placeholder.com/24x24"
-                                    alt="hero section"
-                                />
+                                <div className="w-6 h-6 rounded-lg">
+                                    <Image
+                                        src="/img/icon-splash.png"
+                                        alt="hero-image"
+                                        width={16}
+                                        height={16}
+                                    />
+                                </div>
                                 <p className="text-xl font-semibold text-white">
                                     0.1
                                 </p>
